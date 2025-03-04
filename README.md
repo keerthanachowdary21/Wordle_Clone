@@ -4,7 +4,7 @@
 Your task is to build a simple Wordle-like game using React. The goal is to evaluate your ability to structure a React application, manage state, and implement UI interactions effectively.
 
 ## 🌟 Live Demo
-[🔗 View the deployed project on Vercel](https://word-clone-lf1d.vercel.app/)
+[🔗 View the deployed project on Vercel](https://wordle-clone-hgz6.vercel.app/)
 
 ## 📸 Screenshot
 <p align="center">
