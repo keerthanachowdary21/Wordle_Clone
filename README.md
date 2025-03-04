@@ -47,7 +47,7 @@ Your task is to build a simple Wordle-like game using React. The goal is to eval
 ### 🔧 Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/keerthanachowdary21/word-clone.git
+   git clone https://github.com/keerthanachowdary21/Wordle_Clone.git
    ```
 2. Navigate to the project folder:
    ```sh
