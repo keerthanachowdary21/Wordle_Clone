@@ -8,7 +8,7 @@ Your task is to build a simple Wordle-like game using React. The goal is to eval
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="https://drive.google.com/uc?id=1ptav2sRSLhVHcWRqywJ061va7aPT2E-I" alt="Wordle Clone Screenshot" width="600" />
+  <img src="https://drive.google.com/uc?id=1neNLToxzP1HC1D_BxZh45GneVTBhs8Nu" alt="Wordle Clone Screenshot" width="600" />
 </p>
 
 ## 📜 Requirements
