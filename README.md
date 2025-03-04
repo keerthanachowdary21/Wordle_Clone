@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Wordle Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 🎯 Objective
+Your task is to build a simple Wordle-like game using React. The goal is to evaluate your ability to structure a React application, manage state, and implement UI interactions effectively.
 
-## Available Scripts
+## 🌟 Live Demo
+[🔗 View the deployed project on Vercel](https://word-clone-lf1d.vercel.app/)
 
-In the project directory, you can run:
+## 📸 Screenshot
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1ptav2sRSLhVHcWRqywJ061va7aPT2E-I" alt="Wordle Clone Screenshot" width="600" />
+</p>
 
-### `npm start`
+## 📜 Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✅ Core Features:
+1. **Game Logic:**
+   - The user has **6 attempts** to guess a **5-letter word**.
+   - After each guess, display color-coded feedback:
+     - 🟩 **Green**: Correct letter in the correct position.
+     - 🟨 **Yellow**: Correct letter in the wrong position.
+     - ⬜ **Gray**: Incorrect letter.
+   - Prevent invalid words from being submitted.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **UI/UX:**
+   - A **grid displaying previous guesses** with color-coded feedback.
+   - A **message when the user wins or loses**.
+   - A **“New Game” button** to restart the game.
 
-### `npm test`
+3. **State Management:**
+   - Maintain **guessed words, remaining attempts, and game status**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Performance & Code Quality:**
+   - Keep the code **clean, modular, and readable**.
+   - Use proper **component structure**.
 
-### `npm run build`
+### 🎁 Bonus Features (Optional)
+- ✨ **Animations** for letter feedback.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Tech Stack
+- ⚛️ **React.JS**
+- 🎨 **CSS** for styling
+- ❌ **No backend required** (words can be hardcoded)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started
+### 🔧 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/keerthanachowdary21/word-clone.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd word-clone
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-### `npm run eject`
+## Deployment
+This project is deployed on **Vercel**. To deploy your version:
+1. Push your code to **GitHub**.
+2. Import the repository into **Vercel**.
+3. Deploy with default settings.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🚀 **Built with ❤️ using React!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🚀 **Happy Coding!** 🎯
